@@ -53,13 +53,3 @@
   display: block;
   border-radius: 12px 12px 0 0;
 }
-
-.basicLightbox__placeholder {
-  background-color: rgba(46, 47, 66, 0.8);
-}
-.basicLightbox__placeholder img {
-  max-width: 1728px;
-  max-height: 972px;
-  border-radius: 8px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-}
