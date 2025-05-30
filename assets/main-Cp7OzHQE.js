@@ -9,4 +9,4 @@ import{S as n}from"./vendor-CgTBfC_f.js";(function(){const t=document.createElem
         </a>
       </li>
     `).join("");s.innerHTML=l;new n(".gallery-link",{captionsData:"alt",captionDelay:250});
-//# sourceMappingURL=main-DzEDGayK.js.map
+//# sourceMappingURL=main-Cp7OzHQE.js.map
