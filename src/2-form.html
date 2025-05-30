@@ -6,11 +6,28 @@
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/form.css" />
 </head>
 
 <body>
-    <script type="module" src="./main.js"></script>
+    <div class="form-container">
+        <form class="feedback-form" autocomplete="off">
+            <div class="form-group">
+                <label>
+                    Email
+                    <input type="email" name="email" autofocus />
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    Message
+                    <textarea name="message" rows="8"></textarea>
+                </label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script type="module" src="./js/2-form.js"></script>
 </body>
 
 </html>
